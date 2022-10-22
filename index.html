@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600;700&display=swap" rel="stylesheet">
+    <!-- BootStrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>Assignment-2</title>
+</head>
+
+<body>
+    <!-- Search Section -->
+    <section id="search">
+        <div id="backImg"></div>
+        <a href="#" class="login">Login</a>
+        <button type="button" class="btn btn-outline-light account">Create an account</button>
+        <div class="logo">
+            <h1 class="logo-text">h!</h1>
+        </div>
+        <div>
+            <h1 class="logo-title">Find the best restaurants, cafés, and bars</h1>
+            <input class="form-control" list="datalistOptions" id="searchLocation"
+                placeholder="Please type a location">
+            <datalist id="datalistOptions">
+                <option value="Delhi-NCR">
+                <option value="Mumbai">
+                <option value="Lucknow">
+                <option value="Kolkata">
+                <option value="Gujarat">
+            </datalist>
+        </div>
+        <div class="input-group mb-3 searchRest">
+            <span class="input-group-text" id="basic-addon1"><img src="images/icon.png" alt="searchIcon"></span>
+            <input type="text" class="form-control" placeholder="Search for restaurants">
+        </div> 
+    </section>
+
+    <!-- Quick Search Section -->
+    <section id="quickSearch">
+        <h3 class="quickText">Quick Searches</h3>
+        <p class="paraText">Discover restaurants by type of meal</p>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 meals">
+                <img class="mealsImg" src="images/Breakfast.png" alt="breakfast-img">
+                <h5 class="mealsText">Breakfast</h5>
+                <p class="mealsPara">Start your day with exclusive breakfast options</p>
+            </div>
+            <div class="col-lg-4 col-md-6 meals">
+                <img class="mealsImg" src="images/Lunch.png" alt="Lunch-img">
+                <h5 class="mealsText">Lunch</h5>
+                <p class="mealsPara">Start your day with exclusive Lunch options</p>
+            </div>
+            <div class="col-lg-4 col-md-6 meals">
+                <img class="mealsImg" src="images/Snacks.png" alt="Snacks-img">
+                <h5 class="mealsText">Snacks</h5>
+                <p class="mealsPara">Start your day with exclusive Snacks options</p>
+            </div>
+            <div class="col-lg-4 col-md-6 meals">
+                <img class="mealsImg" src="images/Dinner.png" alt="Dinner-img">
+                <h5 class="mealsText">Dinner</h5>
+                <p class="mealsPara">Start your day with exclusive Dinner options</p>
+            </div>
+            <div class="col-lg-4 col-md-6 meals">
+                <img class="mealsImg" src="images/Drinks.png" alt="Drinks-img">
+                <h5 class="mealsText">Drinks</h5>
+                <p class="mealsPara">Start your day with exclusive Drinks options</p>
+            </div>
+            <div class="col-lg-4 col-md-6 meals">
+                <img class="mealsImg" src="images/NightLife.png" alt="Nightlife-img">
+                <h5 class="mealsText">Nightlife</h5>
+                <p class="mealsPara">Start your day with exclusive Nightlife options</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
